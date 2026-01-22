@@ -64,7 +64,7 @@ dan didapatkan flag nya yaitu **THM{y0u_g0t_a_sh3ll}**
 
 #  #
 
-#TASK 4
+### TASK 4
  
 #### 1. Search for files with SUID permission, which file is weird?
 Ans: Untuk mengetahui nya pertama tama perlu mengetahui file yang memiliki SUID permission dengan menggunakan command:

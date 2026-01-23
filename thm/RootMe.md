@@ -51,7 +51,7 @@ Setelah langkah diatas maka sudah ada jaringan yang terhubung dengan computer ki
 Setelah terhubung untuk menyelesaikan tugas ini perlu mencari file user.txt. oleh karena itu untuk pencarian menggunakan command:
 
 ```bash
-find  / -type f -iname "user.txt" 2>/dev/null
+find  / -type f -name "user.txt" 2>/dev/null
 ```
 
 Setelah didapat lokasi file nya yaitu /var/www/user.txt langkah terakhir adalah menampilkan nya dengan 

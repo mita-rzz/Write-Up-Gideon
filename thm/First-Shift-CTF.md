@@ -71,7 +71,10 @@ tim yang melakukan kolaborasi dengan penulis malware tersebut dapat dilihat pada
 #### 9. A Mexican-based affiliate related to the malware family also uses other infostealers. Which mentioned infostealer targets Android systems?
 Ans:
 Infostealer (pencuri informasi) adalah jenis malware yang dirancang khusus untuk menginfeksi perangkat, lalu mencuri data sensitif seperti kredensial login (username/password), data perbankan, cookie browser, dan file penting secara diam-diam, kemudian mengirimkannya ke penyerang. 
-Untuk mengetahui infostealer lain yang digunakan dapat diketahui lewat laporan TI dengan judul  
+Untuk mengetahui infostealer lain yang digunakan dapat diketahui lewat laporan TI dengan judul **Behind the Curtain: How Lumma Affiliates Operate** lalu melakukan pencarian dengan kata kunci infostealer. Lalu pada bacaan tersebut akan secara jelas memberitahukan bahwa infostealer yang digunakan pada android bernama of **CraxsRAT** (terdapat pada halaman 27). 
+<img width="951" height="846" alt="image" src="https://github.com/user-attachments/assets/6777dcf1-58db-4335-b7e7-51dd5ea08c67" />
 
-
+#### 10. The report states that the affiliates behind the malware use the services of AnonRDP. Which MITRE ATT&CK sub-technique does this align with?
+Ans:
+AnonRDP adalah sebuah service yang menyediakan  layanan Virtual Private Server (VPS) dan Remote Desktop Protocol (RDP) yang berfokus pada privasi tinggi, anonimitas, dan bulletproof hosting. Untuk mengetahui Sub-teknik MITRE ATT&CK yang sesuai dapat ditemukan pada laporan TI dengan judul "Behind the Curtain: How Lumma Affiliates Operate". Lalu pelakukan pencarian dengan kata kunci MITRE ATT&CK. Lalu memilih ATT&CK Code yang sesuai dengan AnonRDP yaitu technique Acquire Infrastructure: Virtual Private Server dengan ATT&CK Code **T1583.003**
 
